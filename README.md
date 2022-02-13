@@ -1,7 +1,7 @@
 # ht-getter
 Searches a document for hash tags. Supports multiple natural languages. Works in various contexts.
 
-This package uses a non-regex approach, which allows it to support both halfwidth and fullwidth alphanumeric characters as well as various writing systems.
+This package uses a non-regex approach and supports both halfwidth and fullwidth alphanumeric characters as well as various writing systems.
 
 ## Function
 
