@@ -1,7 +1,7 @@
 # ht-getter
 Searches a document for hash tags. Supports multiple natural languages. Works in various contexts.
 
-## Methods
+## Functions
 
 ## Code Sample
 
@@ -19,3 +19,5 @@ print(hash_tags)
 print(hash_tag_indices)
 
 ```
+
+## Notes
