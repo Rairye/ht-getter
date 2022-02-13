@@ -1,5 +1,5 @@
 # ht-getter
-Searches a document for hash tags. Support multiple natural languages. Works in various contexts.
+Searches a document for hash tags. Supports multiple natural languages. Works in various contexts.
 
 ## Methods
 
