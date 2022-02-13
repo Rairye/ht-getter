@@ -1,7 +1,19 @@
 # ht-getter
 Searches a document for hash tags. Supports multiple natural languages. Works in various contexts.
 
-## Functions
+## Function
+
+### def get_hash_tags(source, mode = "strings")
+
+**Arguments:**
+
+source -> The source text to be searched. Must be passed as a str type.
+
+mode -> Specifies the mode of the results. The default value is “strings”
+
+mode = “strings” -> The results are returned as a list of strings
+
+mode = “indices” -> The results are returned as a list of lists of the start and end indices of the hash tags.
 
 ## Code Sample
 
@@ -20,4 +32,8 @@ print(hash_tag_indices)
 
 ```
 
-## Notes
+## Things to Keep in Mind:
+
+1.	This package can be used in various contexts. (Social media posts, news articles, etc.)
+2.	This package looks for substrings that have the structure of a hash tag but does not check that the substring is a valid hash tag on any platform. 
+
