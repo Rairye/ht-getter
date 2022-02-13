@@ -57,6 +57,8 @@ def get_hash_tags(source, mode = "strings"):
     if type(source) != str:
         return results
 
+    mode = "strings" if type(mode) != str or mode != "indices" else "indices"
+
     last_valid_pound_sign = None
     possible_hash_tag = False
     last_char_class = None
