@@ -3,6 +3,10 @@ Searches a document for hash tags. Supports multiple natural languages. Works in
 
 This package uses a non-regex approach and supports both halfwidth and fullwidth alphanumeric characters as well as various writing systems.
 
+## Installation
+
+pip install ht-getter
+
 ## Function
 
 ### def get_hash_tags(source, mode = "strings")
