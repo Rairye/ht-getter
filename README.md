@@ -36,6 +36,6 @@ print(hash_tag_indices)
 
 ## Things to Keep in Mind:
 
-1.	This package can be used in various contexts. (Social media posts, news articles, etc.)
+1.	This package can be used in various contexts. (Media posts, news articles, etc.)
 2.	This package looks for substrings that have the structure of a hash tag but does not check that the substring is a valid hash tag on any platform. 
 
